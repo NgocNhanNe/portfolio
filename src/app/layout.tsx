@@ -34,7 +34,7 @@ export default function RootLayout({
           href='/logo.png'
         />
       </head>
-      <body className={`${poppins.variable} ${delaGothicOne.variable}`}>{children}</body>
+      <body className={`${delaGothicOne.variable} ${poppins.variable}`}>{children}</body>
     </html>
   );
 }

@@ -1,6 +1,16 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-dela: 'Dela Gothic One', cursive;
+}
+
+body {
+  font-family: var(--font-poppins);
+}
+@layer utilities {
+  .text-stroke-white {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+  }
 }
